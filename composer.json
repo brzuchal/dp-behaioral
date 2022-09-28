@@ -1,0 +1,20 @@
+{
+    "name": "altkom/behavioral",
+    "description": "Behavioral Design Patterns",
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Behavioral\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Behavioral\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
