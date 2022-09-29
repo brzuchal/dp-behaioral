@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Behavioral\ChainOfResponsibility\CheckUserExistsMiddleware</OriginalElement>
+  <nodes>
+    <node x="122.52416089310398" y="18.34626743205264">\Behavioral\ChainOfResponsibility\Middleware</node>
+    <node x="75.95221578247782" y="219.48528037378858">\Behavioral\ChainOfResponsibility\CheckUserExistsMiddleware</node>
+    <node x="576.3748890760421" y="-3.1991908387842045">\Behavioral\ChainOfResponsibility\Server</node>
+    <node x="415.9666566673516" y="159.8937975064391">\Behavioral\ChainOfResponsibility\Logger</node>
+    <node x="-138.98679510544395" y="-14.104351084037319">\Behavioral\ChainOfResponsibility\LoggerMiddleware</node>
+    <node x="444.33884528800814" y="275.52396135473714">\Behavioral\ChainOfResponsibility\FileLogger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Behavioral\ChainOfResponsibility\FileLogger" target="\Behavioral\ChainOfResponsibility\Logger" relationship="REALIZATION">
+      <point x="-41.87218862065657" y="-51.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="\Behavioral\ChainOfResponsibility\CheckUserExistsMiddleware" target="\Behavioral\ChainOfResponsibility\Middleware" relationship="GENERALIZATION">
+      <point x="-2.1578247782372273E-4" y="-51.500280373788584" />
+      <point x="215.452" y="169.846" />
+      <point x="93.0" y="169.846" />
+      <point x="93.0" y="85.346" />
+      <point x="-116.50016089310398" y="-2.674320526416807E-4" />
+    </edge>
+    <edge source="\Behavioral\ChainOfResponsibility\LoggerMiddleware" target="\Behavioral\ChainOfResponsibility\Middleware" relationship="GENERALIZATION">
+      <point x="100.49979510544395" y="3.5108403731953786E-4" />
+      <point x="93.0" y="37.396" />
+      <point x="93.0" y="85.346" />
+      <point x="-116.50016089310398" y="-2.674320526416807E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.2896825396825398" showDependencies="false" x="364.9999999999999" y="192.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

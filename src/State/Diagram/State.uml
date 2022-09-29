@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Behavioral\State\OrderState</OriginalElement>
+  <nodes>
+    <node x="-86.25276933250927" y="44.183828171134195">\Behavioral\State\CompletedState</node>
+    <node x="419.72073681579775" y="-14.79879240009906">\Behavioral\State\OrderContext</node>
+    <node x="668.1406412537166" y="86.02877977725592">\Behavioral\State\ShippedState</node>
+    <node x="50.37037419600222" y="202.64961525127535">\Behavioral\State\OrderState</node>
+    <node x="219.54751903446817" y="102.47077558046777">\Behavioral\State\OrderStatus</node>
+    <node x="361.75052933101756" y="212.92569081680415">\Behavioral\State\CreatedState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Behavioral\State\ShippedState" target="\Behavioral\State\OrderState" relationship="REALIZATION">
+      <point x="-122.49964125371662" y="29.47122022274408" />
+      <point x="329.0" y="154.5" />
+      <point x="329.0" y="241.65" />
+      <point x="122.49962580399779" y="3.847487246559922E-4" />
+    </edge>
+    <edge source="\Behavioral\State\CreatedState" target="\Behavioral\State\OrderState" relationship="REALIZATION">
+      <point x="-122.49952933101758" y="3.0918319583861376E-4" />
+      <point x="329.0" y="251.926" />
+      <point x="329.0" y="241.65" />
+      <point x="122.49962580399779" y="3.847487246559922E-4" />
+    </edge>
+    <edge source="\Behavioral\State\CompletedState" target="\Behavioral\State\OrderState" relationship="REALIZATION">
+      <point x="-3.3772306674907284" y="39.0001718288658" />
+      <point x="32.87" y="185.15" />
+      <point x="329.0" y="185.15" />
+      <point x="329.0" y="241.65" />
+      <point x="122.49962580399779" y="3.847487246559922E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.2732615083251715" showDependencies="false" x="423.5" y="148.00000000000003" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

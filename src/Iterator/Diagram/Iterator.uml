@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Behavioral\Iterator\VideoDB</OriginalElement>
+  <nodes>
+    <node x="263.0" y="-15.0">\Behavioral\Iterator\Video</node>
+    <node x="118.0" y="29.0">\iterable</node>
+    <node x="398.0" y="222.5">\Countable</node>
+    <node x="100.0" y="131.0">\Behavioral\Iterator\VideoDB</node>
+    <node x="-68.0" y="33.5">\Traversable</node>
+    <node x="-50.0" y="189.0">\Iterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Iterator" target="\Traversable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-73.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="\Traversable" target="\iterable" relationship="INTERFACE_GENERALIZATION">
+      <point x="68.0" y="-0.0" />
+      <point x="-57.5" y="-0.0" />
+    </edge>
+    <edge source="\Behavioral\Iterator\VideoDB" target="\Countable" relationship="REALIZATION">
+      <point x="124.0" y="-0.0" />
+      <point x="-78.0" y="-0.0" />
+    </edge>
+    <edge source="\Behavioral\Iterator\VideoDB" target="\Iterator" relationship="REALIZATION">
+      <point x="-124.0" y="-0.0" />
+      <point x="50.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.4731934731934733" showDependencies="false" x="253.00000000000003" y="199.50000000000003" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

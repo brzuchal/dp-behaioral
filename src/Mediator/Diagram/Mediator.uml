@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Behavioral\Mediator\UserRepositoryUiMediator</OriginalElement>
+  <nodes>
+    <node x="242.2520299869093" y="229.42498374531715">\Behavioral\Mediator\Ui</node>
+    <node x="182.40943293868986" y="62.871133442515045">\Behavioral\Mediator\Colleague</node>
+    <node x="-19.03397995577511" y="-14.723271746675223">\Behavioral\Mediator\Mediator</node>
+    <node x="-129.95809350810418" y="105.07856860775394">\Behavioral\Mediator\UserRepositoryUiMediator</node>
+    <node x="492.6444573530241" y="97.72674706840961">\Behavioral\Mediator\UserRepository</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Behavioral\Mediator\UserRepository" target="\Behavioral\Mediator\Colleague" relationship="GENERALIZATION">
+      <point x="-96.00050758254702" y="2.5293159039563307E-4" />
+      <point x="448.0" y="125.227" />
+      <point x="448.0" y="102.371" />
+      <point x="110.33321885634372" y="-1.3344251505031934E-4" />
+    </edge>
+    <edge source="\Behavioral\Mediator\Ui" target="\Behavioral\Mediator\Colleague" relationship="GENERALIZATION">
+      <point x="75.94730328689619" y="-27.499983745317166" />
+      <point x="439.0326666071388" y="123.0" />
+      <point x="448.0" y="123.0" />
+      <point x="448.0" y="102.371" />
+      <point x="110.33321885634372" y="-1.3344251505031934E-4" />
+    </edge>
+    <edge source="\Behavioral\Mediator\UserRepositoryUiMediator" target="\Behavioral\Mediator\Mediator" relationship="REALIZATION">
+      <point x="59.79079552978449" y="-91.66666666666673" />
+      <point x="75.8327020216803" y="72.67764843053936" />
+      <point x="83.96602004422489" y="72.67764843053936" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="278.0" y="145.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

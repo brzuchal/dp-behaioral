@@ -4,9 +4,9 @@ namespace Behavioral\Iterator;
 
 class VideoDB implements \Countable, \Iterator
 {
-    private $videos = [];
+    private array $videos = [];
 
-    private $currentVideo = 0;
+    private int $currentVideo = 0;
 
     public function addVideo(Video $video)
     {
@@ -39,12 +39,12 @@ class VideoDB implements \Countable, \Iterator
         return $this->currentVideo;
     }
 
-    public function next()
+    public function next(): void
     {
         $this->currentVideo++;
     }
 
-    public function rewind()
+    public function rewind(): void
     {
         $this->currentVideo = 0;
     }

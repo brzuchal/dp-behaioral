@@ -2,7 +2,7 @@
 
 namespace Behavioral\Tests\TemplateMethod\Example;
 
-use Behavioral\TemplateMethod\Example\Volleyball;
+use Behavioral\TemplateMethod\Example\Fries;
 use Behavioral\TemplateMethod\Example\Pizza;
 use PHPUnit\Framework\TestCase;
 
@@ -24,7 +24,7 @@ class TemplateMethodTest extends TestCase
 
     public function testFriesComplete()
     {
-        $beachJourney = new Volleyball();
+        $beachJourney = new Fries();
         $beachJourney->complete();
 
         $this->assertEquals(

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Behavioral\Command\LightSwitch</OriginalElement>
+  <nodes>
+    <node x="-67.35130057042423" y="9.217432993389409">\Behavioral\Command\TurnOffLampCommand</node>
+    <node x="-116.5895634496417" y="174.65991079329308">\Behavioral\Command\Lamp</node>
+    <node x="-48.54832632474354" y="390.1424696784052">\Behavioral\Command\LampState</node>
+    <node x="256.0709525909732" y="32.54341753936316">\Behavioral\Command\TurnOnLampCommand</node>
+    <node x="143.45607040921232" y="306.03454356507507">\Behavioral\Command\LightSwitch</node>
+    <node x="72.3925138370859" y="190.65340078509985">\Behavioral\Command\Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Behavioral\Command\TurnOnLampCommand" target="\Behavioral\Command\Command" relationship="REALIZATION">
+      <point x="-116.49995259097321" y="4.322899883710818E-4" />
+      <point x="186.149" y="84.04384982935153" />
+      <point x="186.149" y="138.90784982935153" />
+      <point x="133.89300000000003" y="138.90784982935153" />
+      <point x="4.861629141004187E-4" y="-27.49955095574832" />
+    </edge>
+    <edge source="\Behavioral\Command\TurnOffLampCommand" target="\Behavioral\Command\Command" relationship="REALIZATION">
+      <point x="3.005704242280416E-4" y="51.50041683596213" />
+      <point x="50.649" y="138.90784982935153" />
+      <point x="133.89300000000003" y="138.90784982935153" />
+      <point x="4.861629141004187E-4" y="-27.49955095574832" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.2548179871520342" showDependencies="false" x="196.5" y="236.8293515358362" />
+  <SelectedNodes>
+    <node>\Behavioral\Command\Lamp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

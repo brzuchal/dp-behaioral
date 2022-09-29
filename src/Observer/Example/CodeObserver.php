@@ -7,7 +7,7 @@ class CodeObserver implements \SplObserver
     private $changedCode = [];
 
 
-    public function update(\SplSubject $subject)
+    public function update(\SplSubject $subject): void
     {
         $this->changedCode[] = clone $subject;
     }

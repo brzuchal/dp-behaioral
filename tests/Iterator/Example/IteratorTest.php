@@ -10,14 +10,15 @@ class IteratorTest extends TestCase
 {
     public function testIterate()
     {
-        $PersonDB = new PersonDB();
-        $PersonDB->addPerson(new Person('21 years', 'Jan Nowak'));
-        $PersonDB->addPerson(new Person('22 years', 'Josh Uer'));
-        $PersonDB->addPerson(new Person('37 yrs', 'John Smith'));
+        $this->markTestIncomplete('implement iterator');
+        $personDB = new PersonDB();
+        $personDB->addPerson(new Person('21 years', 'Jan Nowak'));
+        $personDB->addPerson(new Person('22 years', 'Josh Uer'));
+        $personDB->addPerson(new Person('37 yrs', 'John Smith'));
 
         $persons = [];
 
-        foreach ($PersonDB as $person) {
+        foreach ($personDB as $person) {
             $persons[] = $person->getNameAndAge();
         }
 
@@ -33,6 +34,7 @@ class IteratorTest extends TestCase
 
     public function testRemove()
     {
+        $this->markTestIncomplete('implement iterator');
         $person = new Person('21 yrs', 'Anne Marie');
 
         $personDB = new PersonDB();
