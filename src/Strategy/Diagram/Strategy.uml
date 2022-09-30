@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Behavioral\Strategy\PaymentStrategy</OriginalElement>
+  <nodes>
+    <node x="-24.70663368601626" y="251.75085506250588">\Behavioral\Strategy\DiscountStrategy</node>
+    <node x="-100.51720126793302" y="-14.109088116546047">\Behavioral\Strategy\Item</node>
+    <node x="451.49836685251205" y="33.99747589615929">\Behavioral\Strategy\CreditCardStrategy</node>
+    <node x="227.3474858979779" y="325.1788754182691">\Behavioral\Strategy\PaymentStrategy</node>
+    <node x="558.4538504177357" y="250.60832043107317">\Behavioral\Strategy\ShoppingCart</node>
+    <node x="224.15085577654176" y="162.50017217287018">\Behavioral\Strategy\PayPalStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Behavioral\Strategy\PayPalStrategy" target="\Behavioral\Strategy\PaymentStrategy" relationship="REALIZATION">
+      <point x="83.50014422345825" y="-1.721728701795655E-4" />
+      <point x="417.0" y="213.5" />
+      <point x="417.0" y="282.0" />
+      <point x="319.347" y="282.0" />
+      <point x="-4.8589797791009914E-4" y="-27.499875418269113" />
+    </edge>
+    <edge source="\Behavioral\Strategy\CreditCardStrategy" target="\Behavioral\Strategy\PaymentStrategy" relationship="REALIZATION">
+      <point x="-101.50036685251206" y="-4.758961592870037E-4" />
+      <point x="417.0" y="107.997" />
+      <point x="417.0" y="282.0" />
+      <point x="319.347" y="282.0" />
+      <point x="-4.8589797791009914E-4" y="-27.499875418269113" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.456221198156682" showDependencies="false" x="331.5" y="202.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
